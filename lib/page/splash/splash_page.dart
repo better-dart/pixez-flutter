@@ -27,6 +27,9 @@ import 'package:pixez/page/hello/hello_page.dart';
 import 'package:pixez/page/novel/novel_rail.dart';
 import 'package:pixez/page/splash/splash_store.dart';
 
+///
+///
+///
 class SplashPage extends StatefulWidget {
   @override
   _SplashPageState createState() => _SplashPageState();
@@ -42,7 +45,12 @@ class _SplashPageState extends State<SplashPage>
     splashStore = SplashStore(OnezeroClient())..fetch();
     controller =
         AnimationController(duration: Duration(seconds: 2), vsync: this);
+
+    ///
+    ///
+    ///
     initMethod();
+
     super.initState();
     controller.forward();
   }

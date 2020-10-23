@@ -78,14 +78,24 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    ///
+    ///
+    ///
     return Observer(builder: (_) {
       return MaterialApp(
+        ///
+        ///
+        ///
         navigatorObservers: [BotToastNavigatorObserver()],
+
         home: Builder(builder: (context) {
           return AnnotatedRegion<SystemUiOverlayStyle>(
               value: SystemUiOverlayStyle(
                 statusBarColor: Colors.transparent,
               ),
+              ///
+              ///
+              ///
               child: SplashPage());
         }),
         title: 'PixEz',
